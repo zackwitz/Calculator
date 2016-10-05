@@ -20,17 +20,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var sevenButton: UIButton!
     @IBOutlet weak var eightButton: UIButton!
     @IBOutlet weak var nineButton: UIButton!
-    @IBOutlet weak var zeroButton: UIButton!
-    @IBOutlet weak var decimalButton: UIButton!
-    @IBOutlet weak var negativeButton: UIButton!
     @IBOutlet weak var plusButton: UIButton!
     @IBOutlet weak var minusButton: UIButton!
     @IBOutlet weak var timesButton: UIButton!
     @IBOutlet weak var divideButton: UIButton!
+    @IBOutlet weak var decimalButton: UIButton!
+    @IBOutlet weak var negativeButton: UIButton!
     @IBOutlet weak var clearButton: UIButton!
     @IBOutlet weak var enterButton: UIButton!
-    @IBOutlet weak var answer: UILabel!
+    @IBOutlet weak var answerLabel: UILabel!
     
+    var answer:Int = Int()
+    var firstNumber:Int = Int()
+    var secondNumber:Int = Int()
+    
+    
+       
     
     override func viewDidLoad() {
         super.viewDidLoad()

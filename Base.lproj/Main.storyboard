@@ -451,6 +451,26 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="Hlk-Vb-xvY" id="pxt-T3-0lF"/>
+                        <outlet property="clearButton" destination="S3F-p8-kLF" id="6qh-f1-RUS"/>
+                        <outlet property="decimalButton" destination="IiN-v3-7np" id="nQn-fM-LB2"/>
+                        <outlet property="divideButton" destination="c02-Ip-sgw" id="vmb-Ft-CaZ"/>
+                        <outlet property="eightButton" destination="EHg-JU-Uw6" id="qVe-nL-Cl5"/>
+                        <outlet property="enterButton" destination="Ms5-GW-xZr" id="yCK-OR-rpO"/>
+                        <outlet property="fiveButton" destination="qjx-dy-GKH" id="jh4-DC-bNC"/>
+                        <outlet property="fourButton" destination="knq-aS-xp6" id="UsD-ae-ybW"/>
+                        <outlet property="minusButton" destination="lOK-PR-gTL" id="NVT-TR-cV6"/>
+                        <outlet property="negativeButton" destination="CBX-zp-rtL" id="zS7-9J-1IG"/>
+                        <outlet property="nineButton" destination="oik-Jk-Mc4" id="AGU-Ly-5PQ"/>
+                        <outlet property="oneButton" destination="urg-hD-SpD" id="CCD-Q6-mN0"/>
+                        <outlet property="plusButton" destination="jnf-Ez-3Xi" id="5nM-Cn-fqE"/>
+                        <outlet property="sevenButton" destination="cUO-2o-5tC" id="Vd4-iA-WhX"/>
+                        <outlet property="sixButton" destination="WVB-yI-gg2" id="Poe-uy-1iD"/>
+                        <outlet property="threeButton" destination="Dlj-rN-4Qq" id="jnJ-Bh-jod"/>
+                        <outlet property="timesButton" destination="ntc-wg-63C" id="izb-Js-mdX"/>
+                        <outlet property="twoButton" destination="TQO-mH-TxE" id="jph-Lr-Kib"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
