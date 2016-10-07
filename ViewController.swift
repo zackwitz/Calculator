@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-      
+        self.answerLabel.setTitle("")
         
     }
 
@@ -50,6 +50,94 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func oneTapped(sender: AnyObject)
+    {
+        
+    }
+    
+    @IBAction func twoTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func threeTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func fourTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func fiveTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func sixTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func sevenTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func eightTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func nineTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func zeroTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func decimalTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func negativeTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func plusTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func minusTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func timesTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func divideTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func enterTapped(sender: UIButton)
+    {
+        
+    }
+    
+    @IBAction func clearTapped(sender: UIButton)
+    {
+        
+    }
 }
 
