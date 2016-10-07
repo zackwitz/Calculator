@@ -311,8 +311,8 @@ class ViewController: UIViewController {
                     answerText = String(answer)
                 }
                 
-                let index : String.Index = answerText.index(answerText.startIndex, offsetBy:9)
-                answerText = answerText.substring(to:index)
+              //  let index : String.Index = answerText.index(answerText.startIndex, offsetBy:9)
+               // answerText = answerText.substring(to:index)
                 self.answerLabel.text = answerText
             }
         }
