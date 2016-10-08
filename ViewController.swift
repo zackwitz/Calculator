@@ -64,7 +64,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func oneTapped(sender: AnyObject)
+    @IBAction func oneTapped(_ sender: AnyObject)
     {
         if canOperate
         {
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func twoTapped(sender: UIButton)
+    @IBAction func twoTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -88,7 +88,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func threeTapped(sender: UIButton)
+    @IBAction func threeTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -100,7 +100,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func fourTapped(sender: UIButton)
+    @IBAction func fourTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -112,7 +112,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func fiveTapped(sender: UIButton)
+    @IBAction func fiveTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -124,7 +124,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func sixTapped(sender: UIButton)
+    @IBAction func sixTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -136,7 +136,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func sevenTapped(sender: UIButton)
+    @IBAction func sevenTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -148,7 +148,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func eightTapped(sender: UIButton)
+    @IBAction func eightTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -160,7 +160,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func nineTapped(sender: UIButton)
+    @IBAction func nineTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -172,7 +172,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func zeroTapped(sender: UIButton)
+    @IBAction func zeroTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -184,7 +184,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func decimalTapped(sender: UIButton)
+    @IBAction func decimalTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -196,7 +196,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func negativeTapped(sender: UIButton)
+    @IBAction func negativeTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -208,7 +208,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func plusTapped(sender: UIButton)
+    @IBAction func plusTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -228,7 +228,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func minusTapped(sender: UIButton)
+    @IBAction func minusTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -247,7 +247,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func timesTapped(sender: UIButton)
+    @IBAction func timesTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -266,7 +266,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func divideTapped(sender: UIButton)
+    @IBAction func divideTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -285,7 +285,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func enterTapped(sender: UIButton)
+    @IBAction func enterTapped(_ sender: UIButton)
     {
         if canOperate
         {
@@ -326,7 +326,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func clearTapped(sender: UIButton)
+    @IBAction func clearTapped(_ sender: UIButton)
     {
         answer = 0
         answerText = ""
