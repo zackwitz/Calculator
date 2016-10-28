@@ -33,6 +33,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var minusBackground: UIImageView!
     @IBOutlet weak var timesBackground: UIImageView!
     @IBOutlet weak var divideBackground: UIImageView!
+
+    
     
     var answer:Double = Double()
     var answerText: String = String()
@@ -40,8 +42,8 @@ class ViewController: UIViewController {
     var secondNumber:Double? = Double()
     var currentOperation:String = String()
     var canOperate:Bool = Bool()
-    //let tappedColor:UIColor = UIColor(red: 200, green: 30, blue: 100, alpha: 1)
-    //let untappedColor:UIColor = UIColor(red: 20, green: 50, blue: 210, alpha: 1)
+    let tappedColor:UIColor = UIColor(red: 200, green: 30, blue: 100, alpha: 1)
+    let untappedColor:UIColor = UIColor(red: 20, green: 50, blue: 210, alpha: 1)
     
     
     
@@ -56,7 +58,7 @@ class ViewController: UIViewController {
         secondNumber = 0
         currentOperation = ""
         canOperate = true
-        //self.plusBackground.tintColor = untappedColor
+//        plusBackground.backgroundColor = UIColor(red: 20, green: 50, blue: 210, alpha: 1)
     }
     
     override func didReceiveMemoryWarning() {
@@ -319,8 +321,8 @@ class ViewController: UIViewController {
                     answerText = String(answer)
                 }
                 
-              //  let index : String.Index = answerText.index(answerText.startIndex, offsetBy:9)
-               // answerText = answerText.substring(to:index)
+                let index : String.Index = answerText.index(answerText.startIndex, offsetBy:9)
+                answerText = answerText.substring(to:index)
                 self.answerLabel.text = answerText
             }
         }
